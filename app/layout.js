@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <script async id="toolbar-script" data-toolbar-api-key="405c8675-7e26-4fd7-b922-a06a842ac3a8" src="https://dev.get.usetool.bar/embedded-app.js"></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
